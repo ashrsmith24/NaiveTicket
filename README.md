@@ -17,12 +17,16 @@ Work through all these exercises. You edit this file with your answers for these
 
 ### Exercise 2.2
 * What value is returned if you check the machine’s balance after it has printed a ticket?
+- my return balance was zero.
 
 ### Exercise 2.3
 * Experiment with inserting different amounts of money before printing tickets.
-	* Do you notice anything strange about the machine’s behavior?
+	* Do you notice anything strange about the machine’s behavior? 
+		- no i didnt notice anything different really honestly.
 	* What happens if you insert too much money into the machine – do you receive any refund?
+		- i didnt recieve any refund back.
 	* What happens if you do not insert enough and then try to print a ticket?
+		- if you dont insert enough money then it will still show the amount that you orignally gave.
 
 ### Exercise 2.4
 * Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we start looking at how the `TicketMachine` class is implemented in the next section.
@@ -31,6 +35,7 @@ Work through all these exercises. You edit this file with your answers for these
 * Create another ticket machine for tickets of a different price.
 	* Buy a ticket from that machine.
 	* Does the printed ticket look different?
+		- no it's the same.
 
 ### Exercise 2.6
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
@@ -44,8 +49,11 @@ in the outer wrapper of a class?
 
 * Edit the source of the `TicketMachine` class to make the change and then close the editor window.
 	* Do you notice a change in the class diagram?
+		-yes.
 	* What error message do you get when you now press the compile button?
+		- void
 	* Do you think this message clearly explains what is wrong?
+		- it doesnt explain it enough.
 
 ### Exercise 2.8
 * Check whether or not it is possible to leave out the word `public` from the outer wrapper of the `TicketMachine` class.
@@ -57,9 +65,10 @@ in the outer wrapper of a class?
 
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class?
-
+	- yes i do.
 ### Exercise 2.11
 * What do you think is the type of each of the following fields?
+	- and int
 
 ```java
 private int count;
@@ -69,7 +78,7 @@ private Server host;
 
 ### Exercise 2.12
 * What are the names of the following fields?
-
+	- boolean alive, Person tutor, Game game
 ```java
 private boolean alive;
 private Person tutor;
@@ -85,34 +94,41 @@ private int price;
 does it matter which order the three words appear in?
 * Edit the `TicketMachine` class to try different orderings. After each change, close the editor.
 	* Does the appearance of the class diagram after each change give you a clue as to whether or not other orderings are
-possible?
+possible? 
+	- yes it does.
 	* Check by pressing the compile button to see if there is an error message.
 	* Make sure that you reinstantiate the original version after your experiments!
 
 ### Exercise 2.14
 * Is it always necessary to have a semicolon at the end of a field declaration?
+	- yes its a must.
 * Once again, experiment via the editor.
 * The rule you will learn here is an important one, so be sure to remember it.
 
 
 ### Exercise 2.15
 * Write in full the declaration for a field of type `int` whose name is `status`.
+ 	- you write 
+	private int status;
 
 ### Exercise 2.16
 * To what class does the following constructor belong?
+	- string
 ```
 public Student(String name)
 ```
 
 ### Exercise 2.17
 * How many parameters does the following constructor have and what are their types?
-```
+```	- 2 , string and double.
 public Book(String title, double price)
 ```
 
 ### Exercise 2.18
 * Can you guess what types some of the `Book` class’s fields might be?
+	- title , author , cost , year , publisher
 * Can you assume anything about the names of its fields?
+	- they are all instances to the object which is a book.
 
 Work all Exercises from 2.19 to 2.58 that are **NOT** marked *Challenge exercise*.
 READ upto and INCLUDING section 2.15 of this chapter.
